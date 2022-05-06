@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="#top">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background: #BBDEFB;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        nav{
+            background: #1E88E5;
+            height: 50px;
+            display: flex;
+            justify-content: end;
+            width: 100%;
+        }
+        .secoes{
+            color: #fff;
+            text-decoration: none;
+            font-size: 22px;
+            background: none;
+            padding: 1px 5px;
+            margin-right: 1px;
+        }
+        a:hover{
+            background: #212121;
+        }
+        h2{
+            font-size: 35px;
+        }
+        .pags{
+            color: #fff;
+            text-decoration: none;
+            font-size: 22px;
+            background: none;
+            border: 2px solid #fff;
+            margin: 2px;
+        }
+        #title{
+            background: none;
+            font-size: 22px;
+            display: flex;
+            justify-content: start;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        
+        <nav>
+            <div id="title">Planetas</div>
+            <a href="#page-1" class="secoes"> Mercurio </a>
+            <a href="#page-2" class="secoes"> Venus </a>
+            <a href="#page-3" class="secoes"> Terra </a>
+            <a href="#page-4" class="secoes"> Marte </a>
+            <a href="#page-5" class="secoes"> Jupiter </a>
+            <a href="#page-6" class="secoes"> Saturno </a>
+            <a href="#page-7" class="secoes"> Urano </a>
+            <a href="#page-8" class="secoes"> Netuno </a>
+            <a href="#page-9" class="secoes"> Plutão </a>
+        </nav>
+    </div>
+    <scroll-container>
+        <scroll-page id="page-1">
+            <h2>Mercurio</h2> 
+            <img src="imgs/mercurio.png" alt="mercurio">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+        </scroll-page>
+        <scroll-page id="page-2">
+            <h2>Venus</h2> 
+            <img src="imgs/venus.png" alt="venus">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-1" class="pags">Seção 01</a>
+        </scroll-page>
+        <scroll-page id="page-3">
+            <h2>Terra</h2> 
+            <img src="imgs/terra.png" alt="">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-2" class="pags">Seção 02</a>
+        </scroll-page>
+        <scroll-page id="page-4">
+            <h2>Marte</h2> 
+            <img src="imgs/marte.png" alt="marte">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-3" class="pags">Seção 03</a>
+        </scroll-page>
+        <scroll-page id="page-5">
+            <h2>Jupiter</h2> 
+            <img src="imgs/jupiter.png" alt="jupiter">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-4" class="pags">Seção 04</a>
+        </scroll-page>
+        <scroll-page id="page-6">
+            <h2>Saturno</h2> 
+            <img src="imgs/saturno.png" alt="saturno">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-5" class="pags">Seção 05</a>
+        </scroll-page>
+        <scroll-page id="page-7">
+            <h2>Urano</h2> 
+            <img src="imgs/urano.png" alt="urano">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-6" class="pags">Seção 06</a>
+        </scroll-page>
+        <scroll-page id="page-8">
+            <h2>Netuno</h2>
+            <img src="imgs/netuno.png" alt="netuno">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-7" class="pags">Seção 07</a>
+        </scroll-page>
+        <scroll-page id="page-9">
+            <h2>Plutão</h2> 
+            <img src="imgs/plutao.png" alt="plutão">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Delectus, aliquam veniam tempore quidem recusandae porro 
+            est repudiandae quasi commodi ducimus minima provident 
+            reiciendis labore magni excepturi nesciunt, libero beatae. 
+            Laboriosam.
+            <a href="#page-8" class="pags">Seção 08</a>
+        </scroll-page>
+        <a href="#top" id="topo" class="pags">Home</a>
+    </scroll-container>
+</body>
+</html>
